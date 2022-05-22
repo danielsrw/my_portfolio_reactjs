@@ -31,6 +31,25 @@ import logo from '../assets/logo.png';
 import weforem from '../assets/weforem.png'
 import nexcode from '../assets/nexcode.png'
 import ndahari from '../assets/ndahari.png'
+import eaytLogo from '../assets/eayt.png'
+
+import shoppy from '../assets/work/shoppy.png'
+import phinix from '../assets/work/phinix.png'
+import shareme from '../assets/work/shareme.png'
+import eayt from '../assets/work/eayt.png'
+import beachresort from '../assets/work/beachresort.png'
+import cocktaildb from '../assets/work/cocktaildb.png'
+import nac from '../assets/work/nac.png'
+import geritcht from '../assets/work/geritcht.png'
+import grocerybud from '../assets/work/grocerybud.png'
+import rvc from '../assets/work/rvc.png'
+import kimomosafaris from '../assets/work/kimomosafaris.png'
+import royal from '../assets/work/royal.png'
+import spotify from '../assets/work/spotify.png'
+import nfred from '../assets/work/nfred.png'
+import techme from '../assets/work/techme.png'
+import tesla from '../assets/work/tesla.png'
+import kundubuzima from '../assets/work/kundubuzima.png'
 
 export default {
     email,
@@ -53,14 +72,36 @@ export default {
     sass,
     typescript,
     vue,
+
     about01,
     about02,
     about03,
     about04,
+
     profile,
     circle,
     logo,
+
     weforem,
     nexcode,
-    ndahari
+    ndahari,
+    eaytLogo,
+
+    shoppy,
+    phinix,
+    shareme,
+    eayt,
+    beachresort,
+    cocktaildb,
+    nac,
+    geritcht,
+    grocerybud,
+    rvc,
+    kimomosafaris,
+    royal,
+    spotify,
+    nfred,
+    techme,
+    tesla,
+    kundubuzima
 };

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-
+import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Testimonial.scss';
@@ -32,15 +32,17 @@ const Testimonial = () => {
         <>
             <h2 className="head-text">Testimonials</h2>
 
-            {testimonials.length && (
+            {/* {testimonials.length && ( */}
                 <>
                     <div className="app__testimonial-item app__flex">
-                        <img src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png" alt={testimonials[currentIndex].name} />
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png" alt='' />
                         <div className="app__testimonial-content">
-                            <p className="p-text">{testimonials[currentIndex].feedback}</p>
+                            <p className="p-text">
+                                There’s no need to explain our vision repeatedly. He have a clear, quick, and professional approach.
+                            </p>
                             <div>
-                                <h4 className="bold-text">{testimonials[currentIndex].name}</h4>
-                                <h5 className="p-text">{testimonials[currentIndex].company}</h5>
+                                <h4 className="bold-text">Ntwali Olivier Martial</h4>
+                                <h5 className="p-text">EAYT Ltd</h5>
                             </div>
                         </div>
                     </div>
@@ -55,18 +57,39 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </>
-            )}
+            {/* )} */}
 
             <div className="app__testimonial-brands app__flex">
-                {brands.map((brand) => (
+                {/* {brands.map((brand) => ( */}
                     <motion.div
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5, type: 'tween' }}
-                        key={brand._id}
+                        // key={brand._id}
                     >
-                        <img src={urlFor(brand.imgUrl)} alt={brand.name} />
+                        <img src={images.weforem} alt='' />
                     </motion.div>
-                ))}
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5, type: 'tween' }}
+                        // key={brand._id}
+                    >
+                        <img src={images.nexcode} alt='' />
+                    </motion.div>
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5, type: 'tween' }}
+                        // key={brand._id}
+                    >
+                        <img src={images.ndahari} alt='' />
+                    </motion.div>
+                    <motion.div
+                        whileInView={{ opacity: [0, 1] }}
+                        transition={{ duration: 0.5, type: 'tween' }}
+                        // key={brand._id}
+                    >
+                        <img src={images.eaytLogo} alt='' />
+                    </motion.div>
+                {/* ))} */}
             </div>
         </>
     )
