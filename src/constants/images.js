@@ -18,6 +18,7 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import sanity from '../assets/sanity.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -33,6 +34,7 @@ import nexcode from '../assets/nexcode.png'
 import ndahari from '../assets/ndahari.png'
 import eaytLogo from '../assets/eayt.png'
 
+import netflix from '../assets/work/netflix.png'
 import shoppy from '../assets/work/shoppy.png'
 import phinix from '../assets/work/phinix.png'
 import shareme from '../assets/work/shareme.png'
@@ -72,6 +74,7 @@ export default {
     sass,
     typescript,
     vue,
+    sanity,
 
     about01,
     about02,
@@ -87,6 +90,7 @@ export default {
     ndahari,
     eaytLogo,
 
+    netflix,
     shoppy,
     phinix,
     shareme,

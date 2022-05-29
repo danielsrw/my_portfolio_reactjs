@@ -60,6 +60,49 @@ const Work = () => {
                 {/* {filterWork.map((work, index) => ( */}
                     <div className="app__work-item app__flex">
                         <div className="app__work-img app__flex" >
+                            <img src={images.netflix} alt='Name' />
+
+                            <motion.div
+                                whileHover={{ opacity: [0, 1] }}
+                                transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+                                className="app__work-hover app__flex"
+                            >
+                                <a href='http://netflix-clone-250.vercel.app/' target="_blank" rel="noreferrer">
+                                    <motion.div
+                                        whileInView={{ scale: [0, 1] }}
+                                        whileHover={{ scale: [1, 0.90] }}
+                                        transition={{ duration: 0.25 }}
+                                        className="app__flex"
+                                    >
+                                        <AiFillEye />
+                                    </motion.div>
+                                </a>
+                                <a href='https://github.com/danielsrw/netflix-clone-250' target="_blank" rel="noreferrer">
+                                    <motion.div
+                                        whileInView={{ scale: [0, 1] }}
+                                        whileHover={{ scale: [1, 0.90] }}
+                                        transition={{ duration: 0.25 }}
+                                        className="app__flex"
+                                    >
+                                    <AiFillGithub />
+                                </motion.div>
+                                </a>
+                            </motion.div>
+                        </div>
+
+                        <div className="app__work-content app__flex">
+                            <h4 className="bold-text">Netflix Clone (Next JS)</h4>
+                            <p className="p-text" style={{ marginTop: 10 }}>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
+                            </p>
+
+                            <div className="app__work-tag app__flex">
+                                <p className="p-text">Web App</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="app__work-item app__flex">
+                        <div className="app__work-img app__flex" >
                             <img src={images.shoppy} alt='Name' />
 
                             <motion.div
@@ -91,7 +134,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Shoppy Admin Dashboard</h4>
+                            <h4 className="bold-text">Shoppy Admin Dashboard (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -134,7 +177,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Phinix Headphone</h4>
+                            <h4 className="bold-text">E-commerce Phinix (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -177,7 +220,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">ShareMe</h4>
+                            <h4 className="bold-text">ShareMe (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -220,7 +263,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">EAYT Ltd</h4>
+                            <h4 className="bold-text">EAYT Ltd (PHP)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -263,7 +306,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Beach Resort</h4>
+                            <h4 className="bold-text">Beach Resort (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -306,7 +349,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Cocktail</h4>
+                            <h4 className="bold-text">Cocktail (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -349,7 +392,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">NAC Rwanda</h4>
+                            <h4 className="bold-text">NAC Rwanda (PHP)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -392,7 +435,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Geritcht Resto</h4>
+                            <h4 className="bold-text">Geritcht Resto (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -435,7 +478,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Grocery Bud</h4>
+                            <h4 className="bold-text">Grocery Bud (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -478,7 +521,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Real Value Corp</h4>
+                            <h4 className="bold-text">Real Value Corp (Laravel)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -521,7 +564,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Kimomo Safaris</h4>
+                            <h4 className="bold-text">Kimomo Safaris (HTML & CSS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -564,7 +607,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Royal Hotel</h4>
+                            <h4 className="bold-text">Royal Hotel (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -607,7 +650,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Spotify Clone</h4>
+                            <h4 className="bold-text">Spotify Clone (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -650,7 +693,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">N. Fred</h4>
+                            <h4 className="bold-text">N. Fred (HTML & CSS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -693,7 +736,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">TechMe</h4>
+                            <h4 className="bold-text">TechMe (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -736,7 +779,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Tesla Clone</h4>
+                            <h4 className="bold-text">Tesla Clone (React JS)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
@@ -779,7 +822,7 @@ const Work = () => {
                         </div>
 
                         <div className="app__work-content app__flex">
-                            <h4 className="bold-text">Kundubuzima</h4>
+                            <h4 className="bold-text">Kundubuzima (PHP)</h4>
                             <p className="p-text" style={{ marginTop: 10 }}>
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quaerat?
                             </p>
