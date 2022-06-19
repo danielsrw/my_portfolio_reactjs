@@ -34,6 +34,7 @@ import nexcode from '../assets/nexcode.png'
 import ndahari from '../assets/ndahari.png'
 import eaytLogo from '../assets/eayt.png'
 
+import gym from '../assets/work/gym.png'
 import netflix from '../assets/work/netflix.png'
 import shoppy from '../assets/work/shoppy.png'
 import phinix from '../assets/work/phinix.png'
@@ -90,6 +91,7 @@ export default {
     ndahari,
     eaytLogo,
 
+    gym,
     netflix,
     shoppy,
     phinix,
